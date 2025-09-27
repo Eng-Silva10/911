@@ -1,0 +1,66 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f0f2f5;
+  direction: rtl;
+}
+
+.admin-header {
+  background: linear-gradient(45deg, #1e3c72, #2a5298);
+  color: white;
+  padding: 2.5rem 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.admin-header h2 {
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  font-weight: 600;
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.form-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 0 0.2rem rgba(42, 82, 152, 0.25);
+}
+
+.btn-custom-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.btn-custom-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.reports-link {
+  transition: all 0.3s ease;
+}
+
+.reports-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.status-badge {
+  font-size: 0.9rem;
+  padding: 0.5em 1em;
+}
